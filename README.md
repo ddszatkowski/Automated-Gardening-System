@@ -1,11 +1,17 @@
 # Automated-Gardening-System
 Senior Design Project under the guidance of Dr. Ian Ferguson and Dr. Chuanle Zhou at Missouri University of Science and Technology
 # Team Members
-Nicole L. Voss (nlvdkc@mst.edu, EE major): 
-Member profile: Ms. Voss served as a team member specialized in the development of the frequency generator system. This included development of the circuitry of the frequency generator and reassuring that the frequency system operated properly. Also, Ms. Voss oversaw designing and developing the frequency system casing. She regularly attended team meetings and assisted in system troubleshooting discussions. Also, she researched through various amounts of studies on frequency stimulation’s impact on plant growth to ensure that the system met the right parameters for the overall systems tests.   
-Mohamed S. Mohamed (mamt6f@mst.edu, EE major): 
+**Alan M. Paaren (ampcn7@mst.edu, EE major):**
+Member profile: Mr. Paaren served as team leader and arranged regular team meeting to discuss team’s progress. He was involved in the construction of the plant boxes, the watering system, the speaker frame, the axial fan mount, and coding for the system. He was responsible for making sure deadlines were met, and that other team members did their agreed upon contributions to the project. He oversaw the communication role between departments faulty and our advisors to ensure we had everything needed to conduct this project. Mr. Paaren organized meetings and sent out files to advisors and instructor.  
+
+**Nicole L. Voss (nlvdkc@mst.edu, EE major):**
+Member profile: Ms. Voss served as a team member specialized in the development of the frequency generator system. This included development of the circuitry of the frequency generator and reassuring that the frequency system operated properly. Also, Ms. Voss oversaw designing and developing the frequency system casing. She regularly attended team meetings and assisted in system troubleshooting discussions. Also, she researched through various amounts of studies on frequency stimulation’s impact on plant growth to ensure that the system met the right parameters for the overall systems tests.  
+
+**Mohamed S. Mohamed (mamt6f@mst.edu, EE major):**
 Member profile: Mr. Mohamed served as a team member and the lead for the Lighting and Nutrient Dosing system. He was mainly responsible for the lighting schedule, as well as, the NPK ratio and its administration. He helped launch the initial prototypes that were used to gather data on the project’s functionality and identify areas for improvement. Mohamed also regularly attended meetings to assess the projects progress. Lastly, he also took part in recording data on the condition of the plants. 
-Samuel A. Ogunmolawa (saopr4@mst.edu, EE major): 
+
+**Samuel A. Ogunmolawa (saopr4@mst.edu, EE major):**
 Member profile: Mr. Ogunmolawa served as a team member and the lead for the air circulation system. He was responsible for constructing a circuit for the axial fan and temperature and humidity sensor. He also designed a mounting structure for the fan that was attached to the side of the garden box. Additionally, he regularly checked to ensure the fan was functioning and monitored the temperature and humidity of the tent. Mr. Ogunmolawa regularly attended meetings, communicated frequently with the team, and recorded data on the plants during the first trial. 
-David D. Szatkowski (ddsp86@mst.edu, CpE/CS major): 
+
+**David D. Szatkowski (ddsp86@mst.edu, CpE/CS major):**
 Member profile: Mr. Szatkowski served as a team member specialized in the development of the frequency stimulation system. He worked closely with Ms. Voss to create the logic for the speaker and to research the specifications needed for frequency stimulation. When issues with the system occurred during testing, he was responsible for resetting the system in a timely manner. He also assisted other team members in troubleshooting code-related issues in their respective systems and was responsible for tying the sketches for all the individual systems together into the same sketch. He applied his technical writing skills when working on team deliverables. Lastly, he designed the circuitry and logic for the LCD interface and button array. Like his fellow team members, he attended weekly team meetings, assisted in recording data, and communicated frequently with the team.  
