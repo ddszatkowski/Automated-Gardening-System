@@ -52,7 +52,7 @@ void setup() {
   Alarm.alarmRepeat(10,0,0,WaterOn);  // 10:00am every day
   Alarm.timerRepeat(3600, FanOn);     //Repeats every hour 3600 secs
   Alarm.timerRepeat(60, FanOff); //Checks every minute if X minutes have passed since FanOn
-  Alarm.timerRepeat(60, PrintLoop); //Prints shit every min
+  Alarm.timerRepeat(60, PrintLoop); //Prints info every min
   pinMode(fan, OUTPUT);
   pinMode(13, OUTPUT);
   pinMode(spkr, OUTPUT);
@@ -67,9 +67,9 @@ void setup() {
 void loop() {
   ButtonCheck();
   Alarm.delay(100);
-  
 }
 
+//Read Button Inputs and Display Clock
 void ButtonCheck(){
   buttonStateRight = digitalRead(rightButton);
   buttonStateLeft = digitalRead(leftButton);
@@ -100,8 +100,10 @@ void ButtonCheck(){
   } else {
     down = 0;
   }
-  digitalClockDisplay();
+  digitalClockDisplay(); //Update Clock Display
 }
+
+//Send info for troubleshooting
 void PrintLoop()
 {
   //digitalClockDisplay();
@@ -139,7 +141,7 @@ void PrintLoop()
   Serial.print(TempF);
   Serial.println(" *F ");
 }
-
+//Handle Cursor on right button press
 void RightButton(){
     if (right == 0) {
       if(clockCursor < 7){
@@ -153,6 +155,7 @@ void RightButton(){
     right = 1;
 }
 
+//Handle Cursor on left button press
 void LeftButton(){
     if (left == 0) {
       if(clockCursor > -1){
@@ -166,6 +169,7 @@ void LeftButton(){
     left = 1;
 }
 
+//Handle Cursor on up button press
 void UpButton(){
     if (up == 0) {
       if(clockCursor == 0)
@@ -184,6 +188,7 @@ void UpButton(){
     up = 1;
 }
 
+//Handle Cursor on down button press
 void DownButton(){
   if (down == 0) {
       if(clockCursor == 0)
@@ -262,7 +267,7 @@ void WaterOn() {
   Serial.println(daycount);
 }
 
-
+//Handling both LCD and Serial Clock Display
 void digitalClockDisplay() {
   // digital clock display of the time
   Serial.print(hour());
@@ -287,6 +292,7 @@ void digitalClockDisplay() {
   }
 }
 
+//Printing digits to serial display
 void printDigits(int digits) {
   Serial.print(":");
   if (digits < 10)
@@ -294,6 +300,7 @@ void printDigits(int digits) {
   Serial.print(digits);
 }
 
+//Printing minutes to LCD Display
 void printLCDmin(int digits) {
   lcd.setCursor(2,0);
   lcd.print(":");
@@ -306,6 +313,7 @@ void printLCDmin(int digits) {
   lcd.print(digits);
 }
 
+//Printing Seconds to LCD Clock Display
 void printLCDsec(int digits) {
   lcd.setCursor(5,0);
   lcd.print(":");
